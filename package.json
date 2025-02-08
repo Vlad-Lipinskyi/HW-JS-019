@@ -1,0 +1,29 @@
+{
+  "name": "hw-js-019",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "server": "npx json-server movies.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad-Lipinskyi/HW-JS-019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vlad-Lipinskyi/HW-JS-019/issues"
+  },
+  "homepage": "https://github.com/Vlad-Lipinskyi/HW-JS-019#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "json-server": "^1.0.0-beta.3",
+    "parcel": "^2.13.3"
+  }
+}
